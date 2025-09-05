@@ -9,5 +9,11 @@
     "SCE-PS_Executive_Summary.md",
     "README.md",
     "LICENSE"
-  ]
+  ],
+ "blockchain_proof": {
+    "method": "Bitcoin",
+    "anchoring_service": "OpenTimestamps",
+    "ots_proof_file": "hash.txt.ots",
+    "verification_command": "ots verify hash.txt.ots"
+  }
 }
